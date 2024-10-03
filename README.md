@@ -33,8 +33,10 @@ oldpeak: ST depression induced by exercise relative to rest
 slope: The slope of the peak exercise ST segment
 ca: Number of major vessels (0-3) colored by fluoroscopy
 thal: Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect)
-target: Presence of heart disease (1 = disease, 0 = no disease)
-🛠️ Installation
+target: Presence of heart disease (1 = disease, 0 = no disease
+
+
+## 🛠️ Installation
 To get started, clone this repository and install the required dependencies:
 
 bash
@@ -42,7 +44,9 @@ Copy code
 git clone https://github.com/yourusername/heart-disease-prediction.git
 cd heart-disease-prediction
 pip install -r requirements.txt
-🚀 Usage
+
+
+## 🚀 Usage
 To run the prediction model, use the following command:
 
 #  🧠 Model Training
@@ -51,28 +55,10 @@ To run the prediction model, use the following command:
 # Load Dataset: Load the heart disease dataset.
  Prepare Data: Split the data into features and target variables.
  Train Model: Train the Decision Tree model on the training data.
-# Evaluate Model: Evaluate the model’s performance on the test data.
-# 📊 Model Performance
-# First Classification Results:
-Metric	Precision	Recall	F1-Score	Support
-No Disease (0)	0.83	0.83	0.83	29
-Disease (1)	0.84	0.84	0.84	32
-Accuracy: 0.
+Evaluate Model: Evaluate the model’s performance on the test data.
 
-age: Age of the patient
-sex: Gender (1 = male; 0 = female)
-cp: Chest pain type (4 values)
-trestbps: Resting blood pressure
-chol: Serum cholesterol in mg/dl
-fbs: Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
-restecg: Resting electrocardiographic results
-thalach: Maximum heart rate achieved
-exang: Exercise-induced angina (1 = yes; 0 = no)
-oldpeak: ST depression induced by exercise relative to rest
-slope: The slope of the peak exercise ST segment
-ca: Number of major vessels (0-3) colored by fluoroscopy
-thal: Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect)
-target: Presence of heart disease (1 = disease, 0 = no disease)
+
+
 
 ## 🛠️ Installation
 To get started, clone this repository and install the required dependencies:
@@ -98,6 +84,7 @@ Train Model: Train the Decision Tree model on the training data.
 Evaluate Model: Evaluate the model’s performance on the test data.
 
 ## 📊 Model Performance
+
  ## First Classification Results:
 Metric	Precision	Recall	F1-Score	Support
 No Disease (0)	0.83	0.83	0.83	29
